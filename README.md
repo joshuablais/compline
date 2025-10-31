@@ -1,6 +1,4 @@
-#+title: Readme
-
-* Compline - A Colorscheme for Deep Contemplation and Work
+# Compline - A Colorscheme for Deep Contemplation and Work
 
 From the Latin "completorium" - completion.  The final prayer of the Catholic Liturgical Hours, a time for deep contemplation, to be at peace with the darkness.
 
@@ -8,12 +6,12 @@ Compline is meant to be the embodiment of this - taking minimalism to a monastic
 
 ![Compline palate](https://revere.b-cdn.net/compline/2025-10-31-131317_grim.png)
 
-** The Motivation
+## The Motivation
 For many years, I have used Nord as my default colorscheme for all my work and day to day
 
 Compline is a homage to Nord, Everforest, and the monotone colorscheme - reducing saturation and building from one tone, stripping everything away that is not essential.
 
-** Palate:
+## Palate:
   bg: #1a1d21 
   bg-alt: #22262b 
   base0: #0f1114 
@@ -37,15 +35,15 @@ Compline is a homage to Nord, Everforest, and the monotone colorscheme - reducin
   teal: #b4c4bc 
   dark-cyan: #98a4ac 
 
-** Finished Themes:
-*** Kitty
-*** Emacs
-*** Heliboard (Android)
-*** btop
-*** SwayNC
-*** Stylix in nixOS
-**** GTK/QT
-**** Thunar
+## Finished Themes:
+### Kitty
+### Emacs
+### Heliboard (Android)
+### btop
+### SwayNC
+### Stylix in nixOS
+#### GTK/QT
+#### Thunar
 
 *** Firefox
 *** Waybar
