@@ -1,0 +1,11 @@
+* compline.nvim
+
+A port of [[https://github.com/jblais493/compline.git][Joshua Blais' compline theme]].
+
+** compline
+
+A dark and minimal theme that is easy on the eyes.
+
+** lauds
+
+A parchment like light theme that you'll actually like!
