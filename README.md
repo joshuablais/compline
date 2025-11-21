@@ -1,41 +1,71 @@
 # Compline - A Colorscheme for Deep Contemplation and Work
 
-From the Latin "completorium" - completion.  The final prayer of the Catholic Liturgical Hours, a time for deep contemplation, to be at peace with the darkness.
+**Compline**: from the Latin "completorium" - completion. The final prayer of the Catholic Liturgical Hours, a time for deep contemplation, to be at peace with the darkness.
 
-Compline is meant to be the embodiment of this - taking minimalism to a monastic extent, where colors are expressions of the same tone, a suggestion rather than something that shouts to the user.
+**Lauds**: from the Latin "laudes" - to praise, to glorify. The dawn prayer of the Liturgical Hours, greeting the rising sun with thanksgiving, welcoming the light that scatters darkness.
+
+These colorschemes embody this tradition in code. Monastic minimalism: colors as whispers of the same tone, suggestions rather than shouting at the user. Built for those who seek deep contemplation and focus in their computing environment. The colors fall into the background, accessible when you need them, but muted enough to ignore them.
 
 ![Compline palate](https://revere.b-cdn.net/compline/2025-10-31-131317_grim.png)
 ![Lauds palate](https://revere.b-cdn.net/compline/2025-11-04-191227_grim.png)
 
 ## The Motivation
-For many years, I have used Nord as my default colorscheme for all my work and day to day
+For years, [https://www.nordtheme.com/](Nord) was the default across my system.
+Reliable, minimalst, clean; but the saturation irritated me. 
 
-Compline is a homage to Nord, Everforest, and the monotone colorscheme - reducing saturation and building from one tone, stripping everything away that is not essential.
+Thus this is a homage to Nord, Everforest, and various monotone colorschemes - building from that which I believe those themes got right and reducing saturation and working from one tone, stripping everything away that is not essential.
 
 ## Palate:
-| Palette   | Hex     | RGB         | HSL          | Colors                                                                        |
-|-----------|---------|-------------|--------------|-------------------------------------------------------------------------------|
-| bg        | #1a1d21 | 26 29 33    | 214° 12% 12% | ![Background](https://complinetheme.com/images/colors/background.png)         |
-| bg-alt    | #22262b | 34 38 43    | 213° 12% 15% | ![Background-alt](https://complinetheme.com/images/colors/background-alt.png) |
-| base0     | #0f1114 | 15 17 20    | 216° 14% 7%  | ![base0](https://complinetheme.com/images/colors/base0.png)                   |
-| base1     | #171a1e | 23 26 30    | 214° 13% 10% | ![base1](https://complinetheme.com/images/colors/base1.png)                   |
-| base2     | #1f2228 | 31 34 40    | 220° 13% 14% | ![base2](https://complinetheme.com/images/colors/base2.png)                   |
-| base3     | #282c34 | 40 44 52    | 220° 13% 18% | ![base3](https://complinetheme.com/images/colors/base3.png)                   |
-| base4     | #3d424a | 61 66 74    | 217° 10% 27% | ![base4](https://complinetheme.com/images/colors/base4.png)                   |
-| base5     | #515761 | 81 87 97    | 217° 9% 35%  | ![base5](https://complinetheme.com/images/colors/base5.png)                   |
-| base6     | #676d77 | 103 109 119 | 217° 7% 44%  | ![base6](https://complinetheme.com/images/colors/base6.png)                   |
-| base7     | #8b919a | 139 145 154 | 216° 7% 58%  | ![base7](https://complinetheme.com/images/colors/base7.png)                   |
-| base8     | #e0dcd4 | 224 220 212 | 40° 16% 85%  | ![base8](https://complinetheme.com/images/colors/base8.png)                   |
-| fg        | #f0efeb | 240 239 235 | 48° 14% 93%  | ![fg](https://complinetheme.com/images/colors/fg.png)                         |
-| fg-alt    | #ccc4b4 | 204 196 180 | 40° 19% 75%  | ![fg-alt](https://complinetheme.com/images/colors/fg-alt.png)                 |
-| red       | #cdacac | 205 172 172 | 0° 25% 74%   | ![red](https://complinetheme.com/images/colors/red.png)                       |
-| orange    | #ccc4b4 | 204 196 180 | 40° 19% 75%  | ![orange](https://complinetheme.com/images/colors/orange.png)                 |
-| green     | #b8c4b8 | 184 196 184 | 120° 9% 75%  | ![green](https://complinetheme.com/images/colors/green.png)                   |
-| blue      | #b4bcc4 | 180 188 196 | 210° 12% 74% | ![blue](https://complinetheme.com/images/colors/blue.png)                     |
-| cyan      | #b4c0c8 | 180 192 200 | 204° 15% 75% | ![cyan](https://complinetheme.com/images/colors/cyan.png)                     |
-| yellow    | #d4ccb4 | 212 204 180 | 45° 27% 77%  | ![yellow](https://complinetheme.com/images/colors/yellow.png)                 |
-| teal      | #b4c4bc | 180 196 188 | 150° 12% 74% | ![teal](https://complinetheme.com/images/colors/teal.png)                     |
-| dark-cyan | #98a4ac | 152 164 172 | 204° 11% 64% | ![dark-cyan](https://complinetheme.com/images/colors/dark-cyan.png)           |
+### Compline:
+| Palette   | Hex     | RGB         | HSL          | Colors                                                                          |
+|-----------|---------|-------------|--------------|---------------------------------------------------------------------------------|
+| bg        | #1a1d21 | 26 29 33    | 214° 12% 12% | ![Background](https://complinetheme.com/images/compline/background.png)         |
+| bg-alt    | #22262b | 34 38 43    | 213° 12% 15% | ![Background-alt](https://complinetheme.com/images/compline/background-alt.png) |
+| base0     | #0f1114 | 15 17 20    | 216° 14% 7%  | ![base0](https://complinetheme.com/images/compline/base0.png)                   |
+| base1     | #171a1e | 23 26 30    | 214° 13% 10% | ![base1](https://complinetheme.com/images/compline/base1.png)                   |
+| base2     | #1f2228 | 31 34 40    | 220° 13% 14% | ![base2](https://complinetheme.com/images/compline/base2.png)                   |
+| base3     | #282c34 | 40 44 52    | 220° 13% 18% | ![base3](https://complinetheme.com/images/compline/base3.png)                   |
+| base4     | #3d424a | 61 66 74    | 217° 10% 27% | ![base4](https://complinetheme.com/images/compline/base4.png)                   |
+| base5     | #515761 | 81 87 97    | 217° 9% 35%  | ![base5](https://complinetheme.com/images/compline/base5.png)                   |
+| base6     | #676d77 | 103 109 119 | 217° 7% 44%  | ![base6](https://complinetheme.com/images/compline/base6.png)                   |
+| base7     | #8b919a | 139 145 154 | 216° 7% 58%  | ![base7](https://complinetheme.com/images/compline/base7.png)                   |
+| base8     | #e0dcd4 | 224 220 212 | 40° 16% 85%  | ![base8](https://complinetheme.com/images/compline/base8.png)                   |
+| fg        | #f0efeb | 240 239 235 | 48° 14% 93%  | ![fg](https://complinetheme.com/images/compline/fg.png)                         |
+| fg-alt    | #ccc4b4 | 204 196 180 | 40° 19% 75%  | ![fg-alt](https://complinetheme.com/images/compline/fg-alt.png)                 |
+| red       | #cdacac | 205 172 172 | 0° 25% 74%   | ![red](https://complinetheme.com/images/compline/red.png)                       |
+| orange    | #ccc4b4 | 204 196 180 | 40° 19% 75%  | ![orange](https://complinetheme.com/images/compline/orange.png)                 |
+| green     | #b8c4b8 | 184 196 184 | 120° 9% 75%  | ![green](https://complinetheme.com/images/compline/green.png)                   |
+| blue      | #b4bcc4 | 180 188 196 | 210° 12% 74% | ![blue](https://complinetheme.com/images/compline/blue.png)                     |
+| cyan      | #b4c0c8 | 180 192 200 | 204° 15% 75% | ![cyan](https://complinetheme.com/images/compline/cyan.png)                     |
+| yellow    | #d4ccb4 | 212 204 180 | 45° 27% 77%  | ![yellow](https://complinetheme.com/images/compline/yellow.png)                 |
+| teal      | #b4c4bc | 180 196 188 | 150° 12% 74% | ![teal](https://complinetheme.com/images/compline/teal.png)                     |
+| dark-cyan | #98a4ac | 152 164 172 | 204° 11% 64% | ![dark-cyan](https://complinetheme.com/images/compline/dark-cyan.png)           |
+
+### Lauds:
+| Palette   | Hex     | RGB         | HSL          | Colors                                                                       |
+|-----------|---------|-------------|--------------|------------------------------------------------------------------------------|
+| bg        | #f0efeb | 240 239 235 | 48° 14% 93%  | ![Background](https://complinetheme.com/images/lauds/background.png)         |
+| bg-alt    | #e0dcd4 | 224 220 212 | 40° 16% 85%  | ![Background-alt](https://complinetheme.com/images/lauds/background-alt.png) |
+| base0     | #f5f4f2 | 245 244 242 | 40° 13% 95%  | ![base0](https://complinetheme.com/images/lauds/base0.png)                   |
+| base1     | #efeeed | 239 238 237 | 30° 5% 93%   | ![base1](https://complinetheme.com/images/lauds/base1.png)                   |
+| base2     | #e5e3e0 | 229 227 224 | 36° 8% 89%   | ![base2](https://complinetheme.com/images/lauds/base2.png)                   |
+| base3     | #d8d6d3 | 216 214 211 | 36° 6% 84%   | ![base3](https://complinetheme.com/images/lauds/base3.png)                   |
+| base4     | #b8b5b0 | 184 181 176 | 37° 5% 71%   | ![base4](https://complinetheme.com/images/lauds/base4.png)                   |
+| base5     | #9a9791 | 154 151 145 | 40° 4% 59%   | ![base5](https://complinetheme.com/images/lauds/base5.png)                   |
+| base6     | #7d7a75 | 125 122 117 | 37° 3% 47%   | ![base6](https://complinetheme.com/images/lauds/base6.png)                   |
+| base7     | #5f5c58 | 95 92 88    | 34° 4% 36%   | ![base7](https://complinetheme.com/images/lauds/base7.png)                   |
+| base8     | #2d2a27 | 45 42 39    | 30° 7% 16%   | ![base8](https://complinetheme.com/images/lauds/base8.png)                   |
+| fg        | #1a1d21 | 26 29 33    | 214° 12% 12% | ![fg](https://complinetheme.com/images/lauds/fg.png)                         |
+| fg-alt    | #4a4d51 | 74 77 81    | 214° 5% 30%  | ![fg-alt](https://complinetheme.com/images/lauds/fg-alt.png)                 |
+| red       | #8b6666 | 139 102 102 | 0° 15% 47%   | ![red](https://complinetheme.com/images/lauds/red.png)                       |
+| orange    | #7a6d5a | 122 109 90  | 36° 15% 42%  | ![orange](https://complinetheme.com/images/lauds/orange.png)                 |
+| green     | #5a6b5a | 90 107 90   | 120° 9% 39%  | ![green](https://complinetheme.com/images/lauds/green.png)                   |
+| blue      | #5a6b7a | 90 107 122  | 208° 15% 42% | ![blue](https://complinetheme.com/images/lauds/blue.png)                     |
+| cyan      | #64757d | 100 117 125 | 199° 11% 44% | ![cyan](https://complinetheme.com/images/lauds/cyan.png)                     |
+| yellow    | #8b7e52 | 139 126 82  | 46° 26% 43%  | ![yellow](https://complinetheme.com/images/lauds/yellow.png)                 |
+| teal      | #4d6b6b | 77 107 107  | 180° 16% 36% | ![teal](https://complinetheme.com/images/lauds/teal.png)                     |
+| dark-cyan | #546470 | 84 100 112  | 206° 14% 38% | ![dark-cyan](https://complinetheme.com/images/lauds/dark-cyan.png)           |
+    
 
 ## Finished Themes:
 - [Doom Emacs](https://github.com/jblais493/compline/tree/main/doom%20emacs)
@@ -55,4 +85,7 @@ Compline is a homage to Nord, Everforest, and the monotone colorscheme - reducin
 - [(Neo)vim](https://github.com/jblais493/compline/tree/main/nvim)
 
 ## Roadmap to finish 
-- Termux (nix-on-droid)
+    - Termux (nix-on-droid)
+
+## Special thanks:
+    - [https://github.com/Matthew-K310](Matthew-K310) - for porting compline/lauds to nvim
