@@ -1,0 +1,29 @@
+# Compline
+
+[colors.primary]
+background = '#1a1d21'
+foreground = '#f0efeb'
+
+[colors.normal]
+black = '#22262b'
+red = '#cdacac'
+green = '#b8c4b8'
+yellow = '#d4ccb4'
+blue = '#b4bcc4'
+magenta = '#ccc4b4'
+cyan = '#b4c0c8'
+white = '#ccc4b4'
+
+[colors.bright]
+black = '#515761'
+red = '#cdacac'
+green = '#b8c4b8'
+yellow = '#d4ccb4'
+blue = '#b4bcc4'
+magenta = '#ccc4b4'
+cyan = '#b4c0c8'
+white = '#e0dcd4'
+
+[colors.selection]
+background = '#e0dcd4'
+foreground = '#3d424a'

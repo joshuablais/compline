@@ -1,0 +1,29 @@
+# Lauds
+
+[colors.primary]
+background = '#f0efeb'
+foreground = '#1a1d21'
+
+[colors.normal]
+black = '#e0dcd4'
+red = '#8b6666'
+green = '#5a6b5a'
+yellow = '#8b7e52'
+blue = '#5a6b7a'
+magenta = '#7a6d5a'
+cyan = '#64757d'
+white = '#4a4d51'
+
+[colors.bright]
+black = '#9a9791'
+red = '#8b6666'
+green = '#5a6b5a'
+yellow = '#8b7e52'
+blue = '#5a6b7a'
+magenta = '#7a6d5a'
+cyan = '#64757d'
+white = '#2d2a27'
+
+[colors.selection]
+background = '#2d2a27'
+foreground = '#b8b5b0'
