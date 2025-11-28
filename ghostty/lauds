@@ -1,0 +1,24 @@
+# Lauds
+
+background = #f0efeb
+foreground = #1a1d21
+cursor-color = #8b7e52
+cursor-text = #f0efeb
+selection-background = #d8d6d3
+selection-foreground = #1a1d21
+palette = 0=#5f5c58
+palette = 1=#8b6666
+palette = 2=#5a6b5a
+palette = 3=#8b7e52
+palette = 4=#5a6b7a
+palette = 5=#8b7e52
+palette = 6=#64757d
+palette = 7=#4a4d51
+palette = 8=#7d7a75
+palette = 9=#8b6666
+palette = 10=#5a6b5a
+palette = 11=#8b7e52
+palette = 12=#5a6b7a
+palette = 13=#8b7e52
+palette = 14=#64757d
+palette = 15=#2d2a27

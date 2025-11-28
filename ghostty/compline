@@ -1,0 +1,24 @@
+# Compline
+
+background = #1a1d21
+foreground = #f0efeb
+cursor-color = #d4ccb4
+cursor-text = #1a1d21
+selection-background = #3d424a
+selection-foreground = #f0efeb
+palette = 0=#22262b
+palette = 1=#cdacac
+palette = 2=#b8c4b8
+palette = 3=#d4ccb4
+palette = 4=#b4bcc4
+palette = 5=#ccc4b4
+palette = 6=#b4c0c8
+palette = 7=#8b919a
+palette = 8=#515761
+palette = 9=#cdacac
+palette = 10=#b8c4b8
+palette = 11=#d4ccb4
+palette = 12=#b4bcc4
+palette = 13=#ccc4b4
+palette = 14=#b4c0c8
+palette = 15=#e0dcd4
