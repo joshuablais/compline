@@ -67,21 +67,25 @@ Thus this is a homage to Nord, Everforest, and various monotone colorschemes - b
     
 
 ## Finished Themes:
-- [Doom Emacs](https://github.com/jblais493/compline/tree/main/doom%20emacs)
-- [Kitty](https://github.com/jblais493/compline/tree/main/kitty) 
-- [Heliboard (Android)](https://github.com/jblais493/compline/tree/main/heliboard)
+- [Alacritty](https://github.com/jblais493/compline/tree/main/alacritty)
+- [bat](https://github.com/jblais493/compline/tree/main/bat) 
 - [btop](https://github.com/jblais493/compline/tree/main/btop)
-- [SwayNC](https://github.com/jblais493/compline/tree/main/swaync) 
+- [Doom Emacs](https://github.com/jblais493/compline/tree/main/doom%20emacs)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/compline/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) 
+- [Heliboard (Android)](https://github.com/jblais493/compline/tree/main/heliboard)
+- [Kitty](https://github.com/jblais493/compline/tree/main/kitty) 
+- [Lualine](https://github.com/jblais493/compline/tree/main/lualine)
+- [MPV](https://github.com/jblais493/compline/tree/main/mpv) 
+- [Neovim](https://github.com/jblais493/compline/tree/main/nvim)
 - [Stylix in nixOS](https://github.com/jblais493/compline/tree/main/nixos)
   - GTK/QT
   - Thunar
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/compline/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) 
-- [Waybar](https://github.com/jblais493/compline/tree/main/waybar) 
-- [bat](https://github.com/jblais493/compline/tree/main/bat) 
-- [MPV](https://github.com/jblais493/compline/tree/main/mpv) 
-- [Zathura](https://github.com/jblais493/compline/tree/main/zathura) 
+- [SwayNC](https://github.com/jblais493/compline/tree/main/swaync) 
 - [Thunderbird](https://github.com/jblais493/compline/tree/main/thunderbird) 
-- [(Neo)vim](https://github.com/jblais493/compline/tree/main/nvim)
+- [VSCode](https://github.com/jblais493/compline/tree/main/vscode)
+- [Waybar](https://github.com/jblais493/compline/tree/main/waybar) 
+- [Zathura](https://github.com/jblais493/compline/tree/main/zathura) 
+- [Zed](https://github.com/jblais493/compline/tree/main/zed)
 
 ## Roadmap to finish 
     - Termux (nix-on-droid)
