@@ -1,4 +1,4 @@
-;;; compline-theme.el --- I'm sure you've heard of it -*- lexical-binding: t; no-byte-compile: t; -*-
+;; compline-theme.el --- Be at peace with the darkness -*- lexical-binding: t; no-byte-compile: t; -*-
 ;;
 ;; Added: December 31, 2017 (#129)
 ;; Author: joshuablais <https://github.com/jblais493>
@@ -10,40 +10,35 @@
 
 (require 'doom-themes)
 
-
-;;
 ;;; Variables
 
-(require 'doom-themes)
-
-(defgroup doom-spacegrey-theme nil
-  "Options for the `doom-spacegrey' theme."
+(defgroup doom-compline-theme nil
+  "Options for the `doom-compline' theme."
   :group 'doom-themes)
 
-(defcustom doom-spacegrey-brighter-modeline nil
+(defcustom doom-compline-brighter-modeline nil
   "If non-nil, more vivid colors will be used to style the mode-line."
-  :group 'doom-spacegrey-theme
+  :group 'doom-compline-theme
   :type 'boolean)
 
-(defcustom doom-spacegrey-brighter-comments nil
+(defcustom doom-compline-brighter-comments nil
   "If non-nil, comments will be highlighted in more vivid colors."
-  :group 'doom-spacegrey-theme
+  :group 'doom-compline-theme
   :type 'boolean)
 
-(defcustom doom-spacegrey-comment-bg doom-spacegrey-brighter-comments
+(defcustom doom-compline-comment-bg doom-compline-brighter-comments
   "If non-nil, comments will have a subtle, darker background. Enhancing their
 legibility."
-  :group 'doom-spacegrey-theme
+  :group 'doom-compline-theme
   :type 'boolean)
 
-(defcustom doom-spacegrey-padded-modeline doom-themes-padded-modeline
+(defcustom doom-compline-padded-modeline doom-themes-padded-modeline
   "If non-nil, adds a 4px padding to the mode-line. Can be an integer to
 determine the exact padding."
-  :group 'doom-spacegrey-theme
+  :group 'doom-compline-theme
   :type '(choice integer boolean))
 
 
-;;
 ;;; Theme definition
 
 (def-doom-theme compline
@@ -82,7 +77,7 @@ determine the exact padding."
    (vertical-bar   (doom-darken bg 0.25))
    (selection      base4)
    (builtin        cyan)
-   (comments       base4) 
+   (comments       base4)
    (doc-comments   base4)
    (constants      base7)
    (functions      cyan)
@@ -103,10 +98,10 @@ determine the exact padding."
 
    ;; custom categories
    (hidden     `(,(car bg-alt) "black" "black"))
-   (-modeline-bright doom-spacegrey-brighter-modeline)
+   (-modeline-bright doom-compline-brighter-modeline)
    (-modeline-pad
-    (when doom-spacegrey-padded-modeline
-      (if (integerp doom-spacegrey-padded-modeline) doom-spacegrey-padded-modeline 4)))
+    (when doom-compline-padded-modeline
+      (if (integerp doom-compline-padded-modeline) doom-compline-padded-modeline 4)))
 
    (modeline-fg     'unspecified)
    (modeline-fg-alt (doom-blend violet base4 (if -modeline-bright 0.5 0.2)))
@@ -124,7 +119,7 @@ determine the exact padding."
 
   ;;;; Base theme face overrides
   (((font-lock-comment-face &override)
-    :background (if doom-spacegrey-comment-bg (doom-lighten bg 0.05)))
+    :background (if doom-compline-comment-bg (doom-lighten bg 0.05)))
    ((line-number &override) :foreground base4)
    ((line-number-current-line &override) :foreground fg)
    (mode-line
@@ -147,7 +142,7 @@ determine the exact padding."
    (markdown-markup-face :foreground base5)
    (markdown-header-face :inherit 'bold :foreground red)
    ((markdown-code-face &override) :background (doom-darken bg 0.1))
-   ;;;; outline <built-in>
+   ;; outline <built-in>
    ((outline-1 &override) :foreground fg :weight 'ultra-bold)
    ((outline-2 &override) :foreground (doom-blend fg blue 0.35))
    ((outline-3 &override) :foreground (doom-blend fg blue 0.7))
