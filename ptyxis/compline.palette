@@ -1,0 +1,50 @@
+# How to use
+# copy this file to ~/.local/share/org.gnome.Ptyxis/palettes
+
+[Palette]
+Name=compline/lauds
+Primary=true
+
+# Compline Colorscheme
+[Dark]
+Foreground=#e0dcd4
+Background=#1a1d21
+Cursor=#DBCDB3
+Color0=#1a1d21
+Color1=#CDACAC
+Color2=#b8c4b8
+Color3=#DBCDB3
+Color4=#b4bcc4
+Color5=#c0b8bc
+Color6=#b0bcc8
+Color7=#c0bdb8
+Color8=#515761
+Color9=#c8beb8
+Color10=#b4beb4
+Color11=#ccc4b0
+Color12=#b4bcc4
+Color13=#c4beb8
+Color14=#b0c0b8
+Color15=#e0dcd4
+
+# Lauds Colorscheme
+[Light]
+Foreground=#1a1d21
+Background=#f0efeb
+Cursor=#8b7e52
+Color0=#5f5c58
+Color1=#8b6666
+Color2=#5a6b5a
+Color3=#8b7e52
+Color4=#5a6b7a
+Color5=#8b7e52
+Color6=#64757d
+Color7=#4a4d51
+Color8=#7d7a75
+Color9=#8b6666
+Color10=#5a6b5a
+Color11=#8b7e52
+Color12=#5a6b7a
+Color13=#8b7e52
+Color14=#64757d
+Color15=#2d2a27
