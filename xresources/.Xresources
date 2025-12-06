@@ -1,0 +1,58 @@
+#define bg #1a1d21
+#define bgalt #22262b
+#define base0 #0f1114
+#define base1 #171a1e
+#define base2 #1f2228
+#define base3 #282c34
+#define base4 #3d424a
+#define base5 #515761
+#define base6 #676d77
+#define base7 #8b919a
+#define base8 #e0dcd4
+#define fg #f0efeb
+#define fgalt #ccc4b4
+#define red #cdacac
+#define orange #ccc4b4
+#define green #b8c4b8
+#define blue #b4bcc4
+#define cyan #b4c0c8
+#define yellow #d4ccb4
+#define teal #b4c4bc
+#define darkcyan #9aa4ac
+
+
+*.foreground: fg
+*.background: base0
+*.cursorColor: fg
+
+! black
+*.color0: bg
+*.color8: base3
+
+! red
+*.color1: red
+*.color9: red
+
+! green
+*.color2: green
+*.color10: green
+
+! yellow
+*.color3: yellow
+*.color11: yellow
+
+! blue
+*.color4: blue
+*.color12: blue
+
+! orange (magenta)
+*.color5: orange
+*.color13: orange
+
+! cyan
+*.color6: cyan
+*.color14: cyan
+
+! white/grey
+*.color7: base6
+*.color15: base7

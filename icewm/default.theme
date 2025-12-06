@@ -1,0 +1,127 @@
+#Metadata
+ThemeDescription = "A configuration based on Joshua Blais' 'Compline' color palette"
+ThemeAuthor = "Morgan 'XIIIXVV' Sheridan"
+
+Look=nice
+
+#Settings of Window Elements
+BorderSizeX = 3
+BorderSizeY = 3
+DlgBorderSizeX = 3
+DlgBorderSizeY = 3
+CornerSizeX= 0
+CornerSizeY = 0
+
+TitleBarHeight = 24
+TitleBarJustify = 50
+MenuIconSize = 16
+
+TitleButtonsSupported="simx"
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+
+#Font Settings
+TitleFontNameXft="SauceCodePro Nerd Font:size=12"
+MenuFontNameXft="SauceCodePro Nerd Font:size=10"
+StatusFontNameXft="SauceCodePro Nerd Font:size=12"
+QuickSwitchFontNameXft="SauceCodePro Nerd Font:size=12"
+NormalButtonFontNameXft="SauceCodePro Nerd Font:size=12"
+ActiveButtonFontNameXft="SauceCodePro Nerd Font:size=12"
+NormalTaskBarFontNameXft="SauceCodePro Nerd Font:size=12"
+ActiveTaskBarFontNameXft="SauceCodePro Nerd Font:size=12"
+ToolButtonFontNameXft="SauceCodePro Nerd Font:size=12"
+NormalWorkspaceFontNameXft="SauceCodePro Nerd Font:size=12"
+ActiveWorkspaceFontNameXft="SauceCodePro Nerd Font:size=12"
+MinimizedWindowFontNameXft="SauceCodePro Nerd Font:size=12"
+ListBoxFontNameXft="SauceCodePro Nerd Font:size=12"
+ToolTipFontNameXft="SauceCodePro Nerd Font:size=12"
+ClockFontNameXft="SauceCodePro Nerd Font:size=12"
+TempFontNameXft="SauceCodePro Nerd Font:size=12"
+ApmFontNameXft="SauceCodePro Nerd Font:size=12"
+InputFontNameXft="SauceCodePro Nerd Font:size=12"
+LabelFontNameXft="SauceCodePro Nerd Font:size=12"
+
+#Colors
+DesktopBackgroundColor="rgb:0f/11/14"
+
+ColorNormalBorder="rgb:1a/1d/21"
+ColorActiveBorder="rgb:22/26/2b"
+
+ColorNormalTitleBar="1a/1d/21"
+ColorNormalTitleBarText="rgb:cc/c4/b4"
+ColorActiveTitleBar="rgb:22/26/2b"
+ColorActiveTitleBarText="rgb:f0/ef/eb"
+
+ColorDialog="rgb:1a/1d/21"
+ColorQuickSwitch="rgb:1a/1d/21"
+ColorQuickSwitchText="rgb:cc/c4/b4"
+
+ColorNormalButton="rgb:22/26/2b"
+ColorNormalButtonText="rgb:cc/c4/b4"
+ColorActiveButton="rgb:28/2c/34"
+ColorActiveButtonText="rgb:f0/ef/eb"
+ColorNormalTitleButton="rgb:22/26/2b"
+ColorActiveTitleButton="rgb:28/2c/34"
+
+ColorNormalMenu="rgb:1a/1d/21"
+ColorNormalMenuItemText="rgb:cc/c4/b4"
+ColorActiveMenuItem="rgb:28/2c/34"
+ColorActiveMenuItemText="rgb:f0/ef/eb"
+
+ColorDefaultTaskBar="rgb:1a/1d/21"
+ColorNormalTaskBarApp="rgb:22/26/2b"
+ColorNormalTaskBarAppText="rgb:cc/c4/b4"
+ColorActiveTaskBarApp="rgb:28/2c/34"
+ColorActiveTaskBarAppText="rgb:f0/ef/eb"
+ColorMinimizedTaskBarApp="rgb:17/1a/1e"
+ColorMinimizedTaskBarAppText="rgb:8b/91/9a"
+
+ColorScrollBar="rgb:1a/1d/21"
+ColorScrollBarSlider="rgb:22/26/2b"
+ColorScrollBarButton="rgb:22/26/2b"
+ColorScrollBarButtonArrow="rgb:cc/c4/b4"
+ColorScrollBarInactiveArrow="rgb:8b/91/9a"
+
+ColorListBox="rgb:1a/1d/21"
+ColorListBoxText="rgb:cc/c4/b4"
+ColorListBoxSelection="rgb:22/26/2b"
+ColorListBoxSelectionText="rgb:f0/ef/eb"
+
+ColorToolTip="rgb:1a/1d/21"
+ColorToolTipText="rgb:cc/c4/b4"
+
+ColorLabel="rgb:1a/1d/21"
+ColorLabelText="rgb:cc/c4/b4"
+
+ColorInput="rgb:1a/1d/21"
+ColorInputText="rgb:cc/c4/b4"
+ColorInputSelection="rgb:3d/42/4a"
+ColorInputSelectionText="rgb:f0/ef/eb"
+
+ColorClock=""
+ColorClockText="rgb:cc/c4/b4"
+
+ColorApm="rgb:0f/11/14"
+ColorApmGraphBg="rgb:0f/11/14"
+ColorCPUStatusIdle="rgb:0f/11/14"
+ColorMEMStatusFree="rgb:0f/11/14"
+ColorNetIdle="rgb:0f/11/14"
+
+ColorCPUStatusUser="rgb:b8/c4/b8"
+ColorCPUStatusSystem="rgb:cd/ac/ac"
+ColorCPUStatusInterrupts="rgb:b4/c0/c8"
+ColorCPUStatusIoWait="rgb:98/a4/ac"
+ColorCPUStatusNice="rgb:b8/c4/b8"
+ColorCPUStatusSoftIrq="rgb:98/a4/ac"
+ColorCPUStatusSteal="rgb:cd/ac/ac"
+
+
+ColorMEMStatusUser="rgb:98/a4/ac"
+ColorMEMStatusCached="rgb:b4/c0/c8"
+ColorMEMStatusBuffers="rgb:98/a4/ac"
+
+ColorNetSend="rgb:d4/cc/b4"
+ColorNetReceive="rgb:cd/ac/ac"
+
+ColorApmBattary="rgb:d4/cc/b4"
+ColorApmLine="rgb:b4/bc/c4"
