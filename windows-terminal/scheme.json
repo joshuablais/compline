@@ -1,0 +1,23 @@
+{
+    "name": "Compline",
+    "background": "#0f1114", // base0 - near black
+    "foreground": "#f0efeb", // fg
+    "cursorColor": "#b4c0c8", // cyan
+    "selectionBackground": "#1f2228", // base2
+    "black": "#0f1114", // base0
+    "red": "#CDACAC", // red
+    "green": "#b8c4b8", // green
+    "yellow": "#d4ccb4", // yellow
+    "blue": "#98a4ac", // dark-cyan
+    "purple": "#b4c0c8", // cyan
+    "cyan": "#b4c0c8", // cyan
+    "white": "#f0efeb", // fg
+    "brightBlack": "#171a1e", // base1
+    "brightRed": "#CDACAC", // red
+    "brightGreen": "#b8c4b8", // green
+    "brightYellow": "#d4ccb4", // yellow
+    "brightBlue": "#b4c0c8", // cyan
+    "brightPurple": "#b4c0c8", // cyan
+    "brightCyan": "#b4c0c8", // cyan
+    "brightWhite": "#f0efeb" // fg
+}

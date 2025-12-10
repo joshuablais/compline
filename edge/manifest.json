@@ -1,0 +1,84 @@
+{
+    "manifest_version": 3,
+    "name": "Compline",
+    "version": "1.0",
+    "theme": {
+        "colors": {
+            "frame": [
+                15,
+                17,
+                20
+            ],
+            "frame_inactive": [
+                23,
+                26,
+                30
+            ],
+            "frame_incognito": [
+                31,
+                34,
+                40
+            ],
+            "frame_incognito_inactive": [
+                31,
+                34,
+                40
+            ],
+            "toolbar": [
+                15,
+                17,
+                20
+            ],
+            "tab_text": [
+                180,
+                192,
+                200
+            ],
+            "tab_background_text": [
+                180,
+                192,
+                200
+            ],
+            "bookmark_text": [
+                240,
+                239,
+                235
+            ],
+            "ntp_background": [
+                15,
+                17,
+                20
+            ],
+            "ntp_text": [
+                240,
+                239,
+                235
+            ],
+            "ntp_link": [
+                180,
+                192,
+                200
+            ],
+            "omnibox_background": [
+                23,
+                26,
+                30
+            ],
+            "omnibox_text": [
+                180,
+                192,
+                200
+            ],
+            "omnibox_text_selected": [
+                180,
+                192,
+                200
+            ],
+            "omnibox_selection_background": [
+                31,
+                34,
+                40
+            ]
+        }
+    }
+}
