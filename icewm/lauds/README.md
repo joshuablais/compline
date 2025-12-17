@@ -3,9 +3,9 @@
 A port of Compline for IceWM
 
 ## Installation
-```git clone https://codeberg.org/xiiixvv/compline-ice.git```
+```git clone https://github.com/joshuablais/compline.git```
 
-Place ```compline/icewm/compline``` into
+Place ```compline/icewm/lauds``` into
 ```~/.icewm/themes/```
 or
 ```/usr/share/icewm/themes/```

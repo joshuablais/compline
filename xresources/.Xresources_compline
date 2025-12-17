@@ -22,7 +22,7 @@
 
 
 *.foreground: fg
-*.background: base0
+*.background: bg
 *.cursorColor: fg
 
 ! black
