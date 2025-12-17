@@ -1,8 +1,8 @@
-# Compline
+# Lauds
 
 ## General
 
-"diagnostic.error" = {  fg = "red" }                                                # Diagnostics error (editing area)
+"diagnostic.error" = { fg = "red" }                                                 # Diagnostics error (editing area)
 "diagnostic.hint" = { fg = "green" }                                                # Diagnostics hint (editing area)
 "diagnostic.info" = { fg = "blue" }                                                 # Diagnostics info (editing area)
 "diagnostic.warning" = { fg = "yellow" }                                            # Diagnostics warning (editing area)
@@ -23,15 +23,23 @@
 "ui.bufferline.background" = { bg = "bg-alt" }                                      # bufferline background
 "ui.bufferline" = { fg = "fg-alt" }                                                 # bufferline inactive tab
 
+"ui.cursor.primary" = { bg = "orange", fg = "bg" }                                  # The primary cursor when there are multiple (shift-c).
+"ui.cursor.primary.normal" = { bg = "orange", fg = "bg" }                           # Primary cursor in normal mode
+"ui.cursor.primary.insert" = { bg = "orange", fg = "bg" }                           # Primary cursor in insert mode
+"ui.cursor.primary.select" = { bg = "orange", fg = "bg" }                           # Primary cursor in select mode
+
+"ui.cursor" = { bg = "base4", fg = "bg" }                                           # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
+"ui.cursor.insert" = { bg = "base4", fg = "bg" }                                    # Secondary cursor in insert mode (i).
+"ui.cursor.normal" = { bg = "base4", fg = "bg" }                                    # Secondary cursor in normal mode
+"ui.cursor.select" = { bg = "base4", fg = "bg" }                                    # Secondary  cursor in select mode(v).
+
+"ui.cursor.match" = { bg = "bg", fg = "red", modifiers = ["bold"] }                 # The matching parentheses of that under the cursor.
+
 "ui.cursorcolumn.primary" = { bg = "bg-alt" }                                       # The column of the primary cursor (if cursorcolumn is enabled) 
 "ui.cursorcolumn.secondary" = { }                                                   # The columns of any other cursors (if cursorcolumn is enabled)
-"ui.cursor" = { fg = "bg", bg = "fg-alt" }                                          # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
-"ui.cursor.insert" = { fg = "fg-alt" }                                              # The cursor in insert mode (i).
+
 "ui.cursorline.primary" = { bg = "bg-alt" }                                         # The line of the primary cursor (if cursorline is enabled)j 
 "ui.cursorline.secondary" = { }                                                     # The lines of any other cursors (if cursorline is enabled) 
-"ui.cursor.match" = { bg = "bg", fg = "red", modifiers = ["bold"] }                 # The matching parentheses of that under the cursor.
-"ui.cursor.primary" = { bg = "fg-alt", fg = "bg" }                                  # The primary cursor when there are multiple (shift-c).
-"ui.cursor.select" = { bg = "fg-alt", fg = "base4" }                                # The cursor in select mode(v).
 
 "ui.gutter" = { bg = "bg" }                                                         # Left gutter for diagnostics and breakpoints.
 "ui.gutter.selected" = { bg = "bg" }                                                # Gutter for the line the cursor is on
@@ -60,9 +68,9 @@
 "ui.statusline.active" = { bg = "base1", fg = "fg" }                                # Status line in focused windows.
 "ui.statusline" = { bg = "base1", fg = "fg" }                                       # Status line.
 "ui.statusline.inactive" = { bg = "bg-alt", fg = "fg-alt" }                         # Status line in unfocused windows.
-"ui.statusline.insert" = { bg = "green", fg = "bg", modifiers =  ["bold"] }         # Statusline mode during insert mode (only if editor.color-modes is enabled)
-"ui.statusline.normal" = { bg = "orange", fg = "bg", modifiers =  ["bold"] }        # Statusline mode during normal mode (only if editor.color-modes is enabled)
-"ui.statusline.select" = { bg = "blue", fg = "bg", modifiers =  ["bold"] }          # Statusline mode during select mode (only if editor.color-modes is enabled)
+"ui.statusline.insert" = { bg = "green", fg = "bg", modifiers = ["bold"] }          # Statusline mode during insert mode (only if editor.color-modes is enabled)
+"ui.statusline.normal" = { bg = "orange", fg = "bg", modifiers = ["bold"] }         # Statusline mode during normal mode (only if editor.color-modes is enabled)
+"ui.statusline.select" = { bg = "blue", fg = "bg", modifiers = ["bold"] }           # Statusline mode during select mode (only if editor.color-modes is enabled)
 
 "ui.text.directory" = { fg = "blue" }                                               # Directory names in prompt completion
 "ui.text" = { fg = "fg" }                                                           # Default text color.
@@ -75,7 +83,7 @@
 "ui.virtual.whitespace" = { fg = "base4" }                                          # Whitespace markers in editing area.
 "ui.virtual.wrap" = { fg = "base4" }                                                # Soft-wrap indicator
 
-"ui.window" = { fg = "base0" }                                                      # Window border between splits.
+"ui.window" = { fg = "base4" }                                                      # Window border between splits.
 
 ## Syntax Highlighting
 
@@ -87,33 +95,33 @@
 "type.builtin" = { fg = "cyan" }                                                    # Primitive types of the language (string, int, float).
 "type.enum.variant" = { fg = "blue" }                                               # A variant of an enum.
 
-"constructor" = { fg = "dark=cyan" }                                                # Constructor method for a class or struct.
+"constructor" = { fg = "dark-cyan" }                                                # Constructor method for a class or struct.
 
 "constant" = { fg = "base7" }                                                       # Constant value
 "constant.builtin" = { fg = "cyan" }                                                # Special constants like `true`, `false`, `none`, etc.
 "constant.builtin.boolean" = { fg = "cyan" }                                        # True or False.
 "constant.character" = { fg = "base7" }                                             # Constant of character type.
 "constant.character.escape" = { fg = "base7" }                                      # escape codes like \n.
-"constant.numeric"  = { fg = "red" }                                                # constant integer or float value.
+"constant.numeric" = { fg = "red" }                                                 # constant integer or float value.
 "constant.numeric.integer" = { fg = "red" }                                         # constant integer value.
 "constant.numeric.float" = { fg = "red" }                                           # constant float value.
 
-"string" = { fg = "green" }                                                         # String literal.
-"string.regexp" = { fg = "green" }                                                  # Regular expression literal.
-"string.special" = { fg = "green" }                                                 # Strings containing a path, URL, etc.
-"string.special.path" = { fg = "green" }                                            # String containing a file path.
-"string.special.url" = { fg = "green" }                                             # String containing a web URL.
+"string" = { fg = "fg" }                                                            # String literal.
+"string.regexp" = { fg = "fg" }                                                     # Regular expression literal.
+"string.special" = { fg = "fg" }                                                    # Strings containing a path, URL, etc.
+"string.special.path" = { fg = "fg" }                                               # String containing a file path.
+"string.special.url" = { fg = "fg" }                                                # String containing a web URL.
 "string.special.symbol" = { fg = "base8" }                                          # Erlang/Elixir atoms, Ruby symbols, Clojure keywords.
 
-"comment" = { fg = "base4" }                                                        # This is a comment.
-"comment.line" = { fg = "base4" }                                                   # Line comments, like this.
-"comment.block" = { fg = "base4" }                                                  # Block comments, like /* this */ in some languages.
-"comment.block.documentation" = { fg = "base4" }                                    # Doc comments, e.g "///" in rust.
+"comment" = { fg = "base5" }                                                        # This is a comment.
+"comment.line" = { fg = "base5" }                                                   # Line comments, like this.
+"comment.block" = { fg = "base5" }                                                  # Block comments, like /* this */ in some languages.
+"comment.block.documentation" = { fg = "base5" }                                    # Doc comments, e.g "///" in rust.
 
 "variable" = { fg = "base8" }                                                       # Variable names.
-"variable.builtin" = { fg = "cyan" }                                                # Language reserved variables: `this`, `self`, `super`, etc.
-"variable.parameter" = { fg = "cyan" }                                              # Function parameters.
-"variable.other.member" = { fg = "cyan" }                                           # Fields of composite data types (e.g. structs, unions).
+"variable.builtin" = { fg = "fg" }                                                  # Language reserved variables: `this`, `self`, `super`, etc.
+"variable.parameter" = { fg = "fg" }                                                # Function parameters.
+"variable.other.member" = { fg = "fg" }                                             # Fields of composite data types (e.g. structs, unions).
 
 "label" = { fg = "blue" }                                                           # Loop labels, among other things.
 
@@ -132,7 +140,6 @@
 "keyword.directive" = { fg = "base8" }                                              # Preprocessor directives (#if in C...).
 "keyword.function" = { fg = "cyan" }                                                # The keyword to define a function: "def", "fun", "fn".
 
-# "operator" = { fg = "base6" }                                                     # Logical, mathematical, and other operators.
 "operator" = { fg = "fg-alt" }                                                      # Logical, mathematical, and other operators.
 
 "function" = { fg = "cyan" }
@@ -165,7 +172,7 @@
 "markup.strikethrough" = { modifiers = ["crossed_out"] }                            # Crossed out text
 
 "markup.link" = { fg = "blue" }
-"markup.link.url" = { fg = "blue", underline = { style =  "line" } }                # Urls pointed to by links.
+"markup.link.url" = { fg = "blue", underline = { style = "line" } }                 # Urls pointed to by links.
 "markup.link.label" = { fg = "orange" }                                             # Non-URL link references.
 "markup.link.text" = { fg = "fg" }                                                  # URL and image descriptions in links.
 
@@ -196,24 +203,24 @@
 ## Custom Colors
 
 [palette] 
-bg = "#1a1d21"
-bg-alt = "#22262b"
-base0 = "#0f1114"
-base1 = "#171a1e"
-base2 = "#1f2228"
-base3 = "#282c34"
-base4 = "#3d424a"
-base5 = "#515761"
-base6 = "#676d77"
-base7 = "#8b919a"
-base8 = "#e0dcd4"
-fg = "#f0efeb"
-fg-alt = "#ccc4b4"
-red = "#cdacac"
-orange = "#ccc4b4"
-green = "#b8c4b8"
-blue = "#b4bcc4"
-cyan = "#b4c0c8"
-yellow = "#d4ccb4"
-teal = "#b4c4bc"
-dark-cyan = "#98a4ac"
+bg = "#f0efeb"
+bg-alt = "#e0dcd4"
+base0 = "#f5f4f2"
+base1 = "#efeeed"
+base2 = "#e5e3e0"
+base3 = "#d8d6d3"
+base4 = "#b8b5b0"
+base5 = "#9a9791"
+base6 = "#7d7a75"
+base7 = "#5f5c58"
+base8 = "#2d2a27"
+fg = "#1a1d21"
+fg-alt = "#4a4d51"
+red = "#8b6666"
+orange = "#7a6d5a"
+green = "#5a6b5a"
+blue = "#5a6b7a"
+cyan = "#64757d"
+yellow = "#8b7e52"
+teal = "#4d6b6b"
+dark-cyan = "#546470"
