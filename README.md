@@ -72,6 +72,7 @@ Thus this is a homage to Nord, Everforest, and various monotone colorschemes - b
 - [btop](https://github.com/jblais493/compline/tree/main/btop)
 - [Doom Emacs](https://github.com/jblais493/compline/tree/main/doom%20emacs)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/compline/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) 
+- [Foot](https://github.com/jblais493/compline/tree/main/foot)
 - [Heliboard (Android)](https://github.com/jblais493/compline/tree/main/heliboard)
 - [Kitty](https://github.com/jblais493/compline/tree/main/kitty) 
 - [Lualine](https://github.com/jblais493/compline/tree/main/lualine)
