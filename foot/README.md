@@ -20,11 +20,11 @@ include=~/.config/foot/themes/compline.ini
 Then set your theme of choice in the same file:
 
 ```
-initial-color-theme=1
+initial-color-theme=dark
 ```
 
 Or:
 
 ```
-initial-color-theme=2
+initial-color-theme=light
 ```
